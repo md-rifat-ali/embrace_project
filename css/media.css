@@ -1,0 +1,1479 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* header section start here */
+  #navbar {
+    padding: 10px 0;
+  }
+  .nav_item {
+    text-align: right;
+  }
+
+  .n_link {
+    padding: 5px 0 !important;
+  }
+
+  .t_btn {
+    margin-top: 15px;
+    height: 40px;
+  }
+  /* banner section start here */
+  .b_text {
+    padding-right: 0px;
+    text-align: center;
+  }
+
+  .b_title {
+    margin-top: 35px !important;
+  }
+
+  .b_title h1 {
+    padding: 0 5px;
+    font-size: 37px;
+    line-height: 45px;
+  }
+
+  .b_para {
+    margin-top: 20px;
+  }
+
+  .b_para p {
+    padding-right: 0px;
+    line-height: 28px;
+  }
+
+  .b_contact {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .email_control {
+    width: 180px;
+    height: 50px;
+    padding: 15px;
+  }
+
+  .b_btn {
+    width: 104px;
+    height: 50px;
+    padding: 15px 14px;
+  }
+
+  .b_img {
+    display: none;
+  }
+  /* working company section starts here */
+  .w_header {
+    text-align: center;
+  }
+
+  .c_title h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .c_para {
+    margin-top: 25px;
+    padding: 0 15px;
+    line-height: 28px;
+  }
+
+  .c_part1,
+  .c_part2 {
+    column-gap: 15px;
+  }
+  .c_img1 {
+    margin: 20px 0 10px;
+  }
+
+  .c_img2 {
+    margin-bottom: 0px;
+  }
+  /* commitment section starts here */
+  .commitments {
+    margin-bottom: 60px !important;
+  }
+
+  .company {
+    margin: 46px 0 40px;
+    padding: 20px 0 0;
+  }
+
+  .commit {
+    text-align: center;
+  }
+
+  .review h1 {
+    font-size: 37px;
+    line-height: 50px;
+  }
+
+  .r_para {
+    padding-right: 0px;
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .commit_title {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .commit_title h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .commit_para {
+    text-align: center;
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .commit_para p {
+    margin: 12px 0 20px !important;
+  }
+  /* feature section start here */
+  .feature {
+    margin-bottom: 60px;
+  }
+
+  .f_title {
+    text-align: center;
+  }
+
+  .f_title h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .f_para p {
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .f_img {
+    padding: 0 10px;
+  }
+
+  .f_item {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .item i {
+    margin: 0 auto;
+    width: 65px;
+    height: 65px;
+    font-size: 30px;
+  }
+
+  .item h3 {
+    margin: 15px 0 10px !important;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .item p {
+    font-size: 15px;
+    line-height: 28px;
+    padding: 0 10px;
+  }
+
+  .item2,
+  .item3,
+  .item4 {
+    margin-top: 50px;
+  }
+
+  /* work section start */
+  .w_title h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .w_title p {
+    margin: 12px 0 40px !important;
+  }
+
+  .work p {
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .work h3 {
+    margin: 5px 0 5px !important;
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .work1 {
+    margin-top: 0px !important;
+  }
+
+  .s_btn {
+    padding: 10px 30px;
+  }
+
+  /* journey section start */
+  .journey_section {
+    margin-bottom: 20px;
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  .j_title h1 {
+    margin-bottom: 20px !important;
+    padding: 0 15px;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .j_para p {
+    margin-bottom: 20px !important;
+    padding-right: 0px;
+    font-size: 16px;
+  }
+
+  /* team section starts here */
+  .team {
+    margin-bottom: 60px;
+  }
+
+  .t_title {
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  .t_title h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .t_para1 {
+    padding: 0px 25px;
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .t_para2 {
+    padding: 0 15px;
+    margin-bottom: 40px !important;
+  }
+
+  .t_title a {
+    padding: 10px 30px;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .member {
+    margin-top: 60px;
+    padding: 0 20px;
+  }
+
+  .member3 {
+    margin-top: 17px;
+  }
+
+  /* review section starts here */
+  .client_review {
+    margin-bottom: 60px;
+    padding: 0;
+  }
+
+  .client_title {
+    padding-right: 0px;
+  }
+
+  .client_title h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .all_client {
+    margin-top: 30px;
+  }
+
+  .swiper-slide {
+    width: 295px !important;
+    padding: 15px 15px 15px 15px;
+  }
+
+  .client_img {
+    width: 60px;
+  }
+
+  .name_title {
+    margin-left: 15px;
+  }
+
+  .c_review {
+    margin-top: 10px;
+  }
+
+  .name_title h3 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .name_title,
+  .client_review {
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .next_btn i,
+  .prev_btn i {
+    font-size: 30px;
+  }
+
+  .next_btn,
+  .prev_btn {
+    right: 20px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .prev_btn,
+  .swiper-rtl .next_btn {
+    right: 70px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .next_btn,
+  .prev_btn {
+    top: -30px;
+  }
+
+  /* start section starts here */
+  .start_section {
+    margin-bottom: 60px;
+  }
+
+  .start {
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  .start_title h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .start_btn {
+    margin-top: 40px;
+    padding: 10px 30px;
+  }
+
+  .start_img {
+    display: none;
+  }
+
+  /* faq section starts here */
+  .faq_section {
+    padding: 0;
+  }
+
+  .faq_help {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .faq_help h2 {
+    font-size: 28px;
+    line-height: 40px;
+    padding: 0 35px;
+  }
+
+  .faq_help p {
+    padding: 0 30px;
+  }
+
+  .accordion-button {
+    line-height: 28px;
+  }
+
+  /* footer section start */
+  .link_part {
+    text-align: center;
+  }
+
+  .link_part p {
+    margin: 10px 0 15px !important;
+  }
+
+  .social_link ul {
+    justify-content: center;
+  }
+
+  .social_link ul li:last-child {
+    margin-right: 0;
+  }
+
+  .link ul li {
+    margin-bottom: 0px;
+  }
+
+  .link ul li a {
+    font-size: 15px;
+  }
+
+  .copyright {
+    margin-top: 15px;
+    padding: 25px 0;
+  }
+
+  .c_text {
+    display: block !important;
+  }
+
+  .copy_p {
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .c_link {
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .c_link ul {
+    column-gap: 17px;
+  }
+
+  /* top button */
+  .top_btn {
+    width: 40px;
+    height: 40px;
+    right: 25px;
+    font-size: 25px;
+  }
+
+  .top_btn.active {
+    bottom: 25px;
+  }
+}
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* header section start here */
+  #navbar {
+    padding: 10px 0;
+  }
+
+  .nav_item {
+    text-align: right;
+  }
+
+  .n_link {
+    padding: 5px 0 !important;
+  }
+
+  .t_btn {
+    margin-top: 15px;
+    height: 40px;
+  }
+  /* banner section starts here */
+  .b_text {
+    padding-right: 0px;
+    text-align: center;
+  }
+
+  .b_title {
+    margin-top: 25px !important;
+  }
+
+  .b_title h1 {
+    padding: 0 15px;
+    font-size: 50px;
+    line-height: 70px;
+  }
+
+  .b_contact {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .email_control {
+    height: 55px;
+    padding: 15px;
+  }
+
+  .b_btn {
+    height: 55px;
+    padding: 15px 14px;
+  }
+
+  .b_img {
+    display: none;
+  }
+  /* working company section starts here */
+  .w_header {
+    text-align: center;
+  }
+
+  .c_title h2 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .c_para {
+    margin-top: 25px;
+    padding: 0 15px;
+  }
+
+  .c_part1,
+  .c_part2 {
+    column-gap: 30px;
+  }
+  .c_img1 {
+    margin: 40px 0;
+  }
+
+  .c_img2 {
+    margin-bottom: 40px;
+  }
+  /* commitment section starts here */
+  .commitments {
+    margin-bottom: 80px;
+  }
+
+  .company {
+    margin: 46px 0 35px;
+    padding: 45px 0 0;
+  }
+
+  .commit {
+    text-align: center;
+  }
+
+  .review h1 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+
+  .r_para {
+    padding-right: 0px;
+  }
+
+  .commit_title {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .commit_para {
+    text-align: center;
+  }
+
+  .commit_para p {
+    margin: 12px 0 20px !important;
+  }
+
+  /* feature section start here */
+  .feature {
+    margin-bottom: 100px;
+  }
+
+  .f_title {
+    text-align: center;
+  }
+
+  .f_item {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .item i {
+    margin: 0 auto;
+    width: 65px;
+    height: 65px;
+    font-size: 33px;
+  }
+
+  .item h3 {
+    margin: 15px 0 10px !important;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .item3,
+  .item4 {
+    margin-top: 50px;
+  }
+
+  /* work section start */
+  .work_section {
+    margin-bottom: 83px;
+  }
+
+  .work {
+    margin-top: 0px;
+  }
+
+  .work h3 {
+    margin: 10px 0 5px !important;
+  }
+
+  .s_btn {
+    padding: 10px 30px;
+  }
+
+  /* journey section start */
+  .journey_section {
+    margin-bottom: 10px;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .j_title h1 {
+    margin-bottom: 20px !important;
+    padding: 0 40px;
+  }
+
+  .j_para p {
+    padding-right: 0px;
+  }
+
+  /* team section starts here */
+  .team {
+    margin-bottom: 60px;
+  }
+
+  .t_title {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .t_para1 {
+    padding: 0 30px;
+    font-size: 28px;
+  }
+
+  .t_para2 {
+    padding: 0 30px;
+    margin-bottom: 40px !important;
+  }
+
+  .t_title a {
+    padding: 15px 45px;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .member {
+    margin-top: 60px;
+    padding: 0 39px;
+  }
+
+  /* review section starts here */
+  .client_review {
+    margin-bottom: 80px;
+    padding: 20px 0;
+  }
+
+  .client_title {
+    padding-right: 200px;
+  }
+
+  .all_client {
+    margin-top: 30px;
+  }
+
+  .swiper-slide {
+    width: 350px !important;
+    padding: 20px 36px 20px 20px;
+  }
+
+  .client_img {
+    width: 65px;
+  }
+
+  .name_title h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .name_title,
+  .client_review {
+    font-size: 15px;
+  }
+
+  .next_btn i,
+  .prev_btn i {
+    font-size: 35px;
+  }
+
+  .next_btn,
+  .prev_btn {
+    right: 40px;
+    width: 45px;
+    height: 45px;
+  }
+
+  .prev_btn,
+  .swiper-rtl .next_btn {
+    right: 100px;
+    width: 45px;
+    height: 45px;
+  }
+
+  .next_btn,
+  .prev_btn {
+    top: -45px;
+  }
+
+  /* start section starts here */
+  .start {
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  .start_title h1 {
+    padding: 0 30px;
+    font-size: 40px;
+    line-height: 54px;
+  }
+
+  .start_btn {
+    margin-top: 45px;
+    padding: 15px 45px;
+  }
+
+  .start_img {
+    display: none;
+  }
+
+  /* faq section starts here */
+  .faq_section {
+    padding: 0;
+  }
+
+  .faq_help {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .faq_help p {
+    padding: 0 60px;
+  }
+
+  /* footer section start */
+  .link_part {
+    text-align: center;
+  }
+
+  .link_part p {
+    margin: 10px 0 15px !important;
+  }
+
+  .social_link ul {
+    justify-content: center;
+  }
+
+  .link ul li {
+    margin-bottom: 10px;
+  }
+
+  .link ul li a {
+    font-size: 15px;
+  }
+
+  .copyright {
+    margin-top: 15px;
+    padding: 20px 0;
+  }
+
+  .copy_p {
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .c_link {
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .c_link ul {
+    column-gap: 17px;
+  }
+
+  /* top button */
+  .top_btn {
+    width: 50px;
+    height: 50px;
+    right: 30px;
+    font-size: 30px;
+    box-shadow: 0px 2px 5px 2px #c3c3c3;
+  }
+
+  .top_btn.active {
+    bottom: 30px;
+  }
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* header section start here */
+  #navbar {
+    padding: 15px 0;
+  }
+
+  .nav_item {
+    text-align: right;
+  }
+  /* banner section start here */
+  .b_text {
+    padding-right: 0px;
+    text-align: center;
+  }
+
+  .b_title {
+    margin-top: 50px !important;
+  }
+
+  .b_title h1 {
+    padding: 0 40px;
+    font-size: 60px;
+    line-height: 85px;
+  }
+
+  .b_para {
+    padding: 0 10px;
+  }
+
+  .b_contact {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .email_control {
+    height: 55px;
+    padding: 15px;
+  }
+
+  .b_btn {
+    height: 55px;
+    padding: 15px 14px;
+  }
+
+  .b_img {
+    padding: 0 90px;
+  }
+
+  /* working company section starts here */
+  .w_header {
+    text-align: center;
+  }
+
+  .c_para {
+    margin-top: 25px;
+    padding: 0 15px;
+  }
+
+  .c_part1,
+  .c_part2 {
+    column-gap: 50px;
+  }
+  .c_img1 {
+    margin: 50px 0;
+  }
+
+  .c_img2 {
+    margin-bottom: 0px;
+  }
+  /* commitment section starts here */
+  .commitments {
+    margin-bottom: 100px;
+  }
+  .company {
+    margin: 46px 0 100px;
+    padding: 45px 0 0;
+  }
+
+  .commit {
+    text-align: center;
+  }
+
+  .review h1 {
+    font-size: 60px;
+  }
+
+  .r_para {
+    padding-right: 0px;
+  }
+
+  .commit_title {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .commit_para {
+    text-align: center;
+  }
+
+  .commit_para p {
+    margin: 12px 0 20px !important;
+  }
+
+  /* feature section start here */
+  .feature {
+    margin-bottom: 100px;
+  }
+
+  .f_title {
+    text-align: center;
+  }
+
+  .f_item {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .item i {
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+  }
+
+  .item h3 {
+    margin: 15px 0 10px !important;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .item3,
+  .item4 {
+    margin-top: 50px;
+  }
+
+  /* work section starts here */
+  .work h3 {
+    margin: 10px 0 5px !important;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .work p {
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  /* journey section start */
+  .journey_section {
+    margin-bottom: 80px;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .j_title h1 {
+    margin-bottom: 20px !important;
+  }
+
+  /* team section starts here */
+  .team {
+    margin-bottom: 80px;
+  }
+
+  .t_title {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .t_para1 {
+    padding: 0 30px;
+  }
+
+  .t_para2 {
+    padding: 0 30px;
+    margin-bottom: 40px !important;
+  }
+
+  .t_title a {
+    padding: 15px 45px;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .member {
+    margin-top: 60px;
+    padding: 0 39px;
+  }
+
+  /* review section starts here */
+  .client_review {
+    margin-bottom: 80px;
+    padding: 40px 0;
+  }
+
+  .client_title {
+    padding-right: 200px;
+  }
+
+  .all_client {
+    margin-top: 35px;
+  }
+
+  .swiper-slide {
+    width: 425px !important;
+    padding: 25px 32px 25px 25px;
+  }
+
+  .client_img {
+    width: 65px;
+  }
+
+  .name_title h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .name_title,
+  .client_review {
+    font-size: 15px;
+  }
+
+  .next_btn i,
+  .prev_btn i {
+    font-size: 35px;
+  }
+
+  .next_btn,
+  .prev_btn {
+    right: 40px;
+    width: 45px;
+    height: 45px;
+  }
+
+  .prev_btn,
+  .swiper-rtl .next_btn {
+    right: 100px;
+    width: 45px;
+    height: 45px;
+  }
+
+  .next_btn,
+  .prev_btn {
+    top: -50px;
+  }
+
+  /* start section starts here */
+  .start {
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  .start_title h1 {
+    font-size: 40px;
+    line-height: 54px;
+  }
+
+  .start_btn {
+    margin-top: 45px;
+    padding: 15px 45px;
+  }
+
+  .start_img {
+    display: none;
+  }
+
+  /* faq section starts here */
+  .faq_section {
+    padding: 0;
+  }
+
+  .faq_help {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .faq_help p {
+    padding: 0 150px;
+  }
+
+  /* footer section start */
+  .link_part {
+    text-align: center;
+  }
+
+  .link_part p {
+    margin: 10px 0 15px !important;
+  }
+
+  .social_link ul {
+    justify-content: center;
+  }
+
+  .link ul li {
+    margin-bottom: 15px;
+  }
+
+  .copyright {
+    margin-top: 15px;
+    padding: 25px 0;
+  }
+
+  .c_link ul {
+    column-gap: 65px;
+  }
+
+  /* top button */
+  .top_btn {
+    width: 50px;
+    height: 50px;
+    right: 30px;
+    font-size: 30px;
+  }
+
+  .top_btn.active {
+    bottom: 30px;
+  }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* header section starts here */
+  #navbar {
+    padding: 20px 0;
+  }
+
+  .nav_item {
+    margin-left: 20px;
+  }
+
+  .n_item {
+    margin-left: 20px;
+  }
+
+  /* banner section */
+  .b_text {
+    padding-right: 80px;
+  }
+
+  .b_title {
+    margin-top: 65px;
+  }
+
+  .b_title h1 {
+    padding-right: 10px;
+    font-size: 60px;
+    line-height: 80px;
+  }
+
+  .b_para p {
+    padding-right: 15px;
+  }
+
+  .email_control {
+    height: 55px;
+    padding: 12px 10px;
+  }
+
+  .b_btn {
+    height: 55px;
+    padding: 12px 20px;
+  }
+
+  /* working company section start here */
+  .company {
+    padding: 60px 0 0;
+  }
+  .c_title {
+    padding-right: 0px;
+  }
+  .c_title h2 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .c_para {
+    font-size: 15px;
+    line-height: 28px;
+  }
+  .c_img1 {
+    margin: 60px 0;
+  }
+
+  .c_img2 {
+    margin-bottom: 20px;
+  }
+
+  /* commmitment section start here */
+  .review h1 {
+    font-size: 60px;
+    line-height: 80px;
+  }
+
+  .r_para {
+    padding-right: 0px;
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .commit_title h2 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .commit_para p {
+    margin: 12px 0 30px !important;
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  /* feature section starts here */
+
+  .feature {
+    margin-bottom: 120px;
+  }
+
+  .f_title h1 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .f_para p {
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .item i {
+    width: 65px;
+    height: 65px;
+    font-size: 33px;
+  }
+
+  .item h3 {
+    margin: 15px 0 10px !important;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .item p {
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .item3,
+  .item4 {
+    margin-top: 60px;
+  }
+
+  /* journey section starts here */
+  .journey_section {
+    margin-bottom: 100px;
+    padding: 50px 0;
+  }
+
+  .j_title h1 {
+    font-size: 34px;
+    line-height: 48px;
+  }
+
+  .j_para p {
+    padding-right: 0px;
+    font-size: 16px;
+    margin-bottom: 26px !important;
+  }
+
+  /* team section starts here */
+
+  .t_para1 {
+    margin: 8px 0 16px !important;
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .t_para2 {
+    margin-bottom: 50px !important;
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .t_title a {
+    padding: 15px 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  /* review section starts here */
+  .client_review {
+    margin-bottom: 87px;
+    padding: 37px 0;
+    position: relative;
+  }
+
+  .swiper-slide {
+    width: 400px !important;
+    padding: 25px 25px 25px 25px;
+  }
+
+  .client_img {
+    width: 70px;
+  }
+
+  .name_title h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .next_btn i,
+  .prev_btn i {
+    font-size: 40px;
+  }
+
+  .next_btn,
+  .prev_btn {
+    width: 55px;
+    height: 55px;
+  }
+
+  .prev_btn,
+  .swiper-rtl .next_btn {
+    width: 55px;
+    height: 55px;
+  }
+
+  .next_btn,
+  .prev_btn {
+    top: -70px;
+  }
+
+  /* start section starts here */
+  .start {
+    padding: 40px 0;
+  }
+
+  .start_title h1 {
+    font-size: 40px;
+    line-height: 54px;
+  }
+
+  .start_btn {
+    margin-top: 120px;
+  }
+
+  /* faq section starts here */
+  .faq_section {
+    padding: 50px 0px;
+  }
+
+  .faq_help p {
+    padding-right: 30px;
+  }
+
+  .faq_email {
+    width: 260px;
+  }
+
+  .f_help {
+    margin-bottom: 20px;
+  }
+
+  /* footer section start */
+  .link_part p {
+    margin: 10px 0 15px !important;
+  }
+
+  .link ul li {
+    margin-bottom: 15px;
+  }
+
+  .copyright {
+    padding: 30px 0;
+  }
+
+  .social_link {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .social_link ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* top button */
+  .top_btn {
+    width: 60px;
+    height: 60px;
+    right: 40px;
+    font-size: 35px;
+  }
+
+  .top_btn.active {
+    bottom: 40px;
+  }
+}
+
+/* Extra Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* banner section starts here */
+  .b_text {
+    padding-right: 95px;
+  }
+  /* working company section starts here */
+  .c_title {
+    padding-right: 0px;
+  }
+  .c_title h2 {
+    font-size: 39px;
+  }
+
+  .c_para {
+    padding-right: 10px;
+  }
+
+  .c_img1 {
+    margin: 60px 0;
+  }
+
+  .c_img2 {
+    margin-bottom: 60px;
+  }
+  /* commitment section starts here */
+  .r_para {
+    padding-right: 20px;
+  }
+
+  .commit_para p {
+    margin: 12px 0 35px !important;
+  }
+
+  /* feature section start here */
+  .item i {
+    width: 85px;
+    height: 85px;
+    font-size: 40px;
+  }
+
+  /* team section starts here */
+  .team {
+    margin-bottom: 100px;
+  }
+
+  .t_para2 {
+    padding-right: 24px;
+  }
+
+  /* review section starts here */
+  .client_title h2 {
+    padding-right: 25px;
+  }
+  /* top button  */
+  .top_btn {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* Extra  Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
